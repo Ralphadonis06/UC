@@ -45,7 +45,7 @@ const teamMembers = [
   },
   {
     initials: "MR",
-    name: "Markrain Malibog Rodolfo",
+    name: "Markrain Rodolfo",
     role: "Fact-Checker",
     description: "Verifies the accuracy of all claims and sources to maintain the integrity of our research.",
     selfCare: ["Reading news articles", "Swimming on weekends", "Spending time with pets"],
