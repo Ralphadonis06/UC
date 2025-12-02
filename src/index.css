@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Truth PH - Editorial Design System
+   Bold investigative journalism aesthetic with golden truth spotlight
+*/
+
+@layer base {
+  :root {
+    --background: 40 20% 97%;
+    --foreground: 30 10% 15%;
+
+    --card: 40 25% 99%;
+    --card-foreground: 30 10% 15%;
+
+    --popover: 40 25% 99%;
+    --popover-foreground: 30 10% 15%;
+
+    --primary: 38 92% 50%;
+    --primary-foreground: 30 10% 10%;
+
+    --secondary: 30 15% 90%;
+    --secondary-foreground: 30 10% 20%;
+
+    --muted: 35 15% 92%;
+    --muted-foreground: 30 8% 45%;
+
+    --accent: 175 60% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 35 20% 85%;
+    --input: 35 20% 85%;
+    --ring: 38 92% 50%;
+
+    --radius: 0.5rem;
+    
+    --editorial-dark: 30 15% 12%;
+    --editorial-gold: 38 92% 50%;
+    --editorial-light: 40 25% 97%;
+    --alert-red: 0 72% 51%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(30 15% 12%) 0%, hsl(30 20% 8%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(28 85% 45%) 100%);
+    --shadow-card: 0 8px 32px -8px hsl(30 20% 20% / 0.12);
+    --shadow-glow: 0 0 40px hsl(38 92% 50% / 0.2);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 40 20% 97%;
+    --sidebar-foreground: 30 10% 25%;
+    --sidebar-primary: 38 92% 50%;
+    --sidebar-primary-foreground: 30 10% 10%;
+    --sidebar-accent: 35 15% 92%;
+    --sidebar-accent-foreground: 30 10% 20%;
+    --sidebar-border: 35 20% 85%;
+    --sidebar-ring: 38 92% 50%;
+  }
+
+  .dark {
+    --background: 30 15% 8%;
+    --foreground: 40 15% 92%;
+
+    --card: 30 12% 12%;
+    --card-foreground: 40 15% 92%;
+
+    --popover: 30 12% 12%;
+    --popover-foreground: 40 15% 92%;
+
+    --primary: 38 92% 55%;
+    --primary-foreground: 30 15% 8%;
+
+    --secondary: 30 10% 18%;
+    --secondary-foreground: 40 15% 88%;
+
+    --muted: 30 10% 15%;
+    --muted-foreground: 35 10% 55%;
+
+    --accent: 175 55% 45%;
+    --accent-foreground: 30 15% 8%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 30 15% 8%;
+
+    --border: 30 10% 20%;
+    --input: 30 10% 20%;
+    --ring: 38 92% 55%;
+    
+    --editorial-dark: 30 15% 6%;
+    --editorial-gold: 38 92% 55%;
+    --editorial-light: 30 12% 15%;
+    --alert-red: 0 70% 55%;
+    
+    --sidebar-background: 30 15% 8%;
+    --sidebar-foreground: 40 15% 88%;
+    --sidebar-primary: 38 92% 55%;
+    --sidebar-primary-foreground: 30 15% 8%;
+    --sidebar-accent: 30 10% 15%;
+    --sidebar-accent-foreground: 40 15% 88%;
+    --sidebar-border: 30 10% 20%;
+    --sidebar-ring: 38 92% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+  
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glow-gold {
+    box-shadow: var(--shadow-glow);
+  }
+}
