@@ -38,8 +38,7 @@ const teamMembers = [
   {
     initials: "KS",
     name: "Silvestre, Justin Kyle F.",
-    role: "Technical Support Developer
-",
+    role: "Technical Support Developer",
     description: "Implements the technical infrastructure and ensures the website runs smoothly and efficiently.",
     selfCare: ["Coding personal projects", "Playing mobile games", "Hanging out with friends"],
     colorClass: "bg-primary/10 text-primary"
