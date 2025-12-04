@@ -6,7 +6,7 @@ const teamMembers = [
   {
     initials: "AO",
     name: "Ortega, Allen Noor Joswah D.",
-    role: "Research Lead",
+    role: "Lead Researcher",
     description: "Leads the research efforts and ensures all information is accurately sourced and fact-checked.",
     selfCare: ["Morning meditation sessions", "Playing basketball on weekends", "Watching movies with family"],
     colorClass: "bg-primary/10 text-primary"
@@ -14,7 +14,7 @@ const teamMembers = [
   {
     initials: "EB",
     name: "Emmanuel Bautista",
-    role: "Content Writer",
+    role: "Content Developer",
     description: "Crafts compelling narratives that make complex issues accessible to diverse audiences.",
     selfCare: ["Reading books before sleep", "Jogging in the morning", "Cooking healthy meals"],
     colorClass: "bg-accent/10 text-accent"
@@ -22,7 +22,7 @@ const teamMembers = [
   {
     initials: "JF",
     name: "Ferrer James Almer B.",
-    role: "Data Analyst",
+    role: "Data Research Specialist",
     description: "Analyzes trends and statistics related to corruption, providing data-driven insights.",
     selfCare: ["Playing video games", "Listening to music", "Taking short walks"],
     colorClass: "bg-primary/10 text-primary"
@@ -30,7 +30,7 @@ const teamMembers = [
   {
     initials: "JD",
     name: "Dela Vega, John Patrick A",
-    role: "Web Designer",
+    role: "UI/UX Designer",
     description: "Brings creative vision to the project, designing an intuitive and engaging user experience.",
     selfCare: ["Sketching and digital art", "Watching anime series", "Playing guitar"],
     colorClass: "bg-accent/10 text-accent"
@@ -38,7 +38,8 @@ const teamMembers = [
   {
     initials: "KS",
     name: "Silvestre, Justin Kyle F.",
-    role: "Technical Developer",
+    role: "Technical Support Developer
+",
     description: "Implements the technical infrastructure and ensures the website runs smoothly and efficiently.",
     selfCare: ["Coding personal projects", "Playing mobile games", "Hanging out with friends"],
     colorClass: "bg-primary/10 text-primary"
@@ -46,7 +47,7 @@ const teamMembers = [
   {
     initials: "MR",
     name: "Rodolfo, Markrain M.",
-    role: "Fact-Checker",
+    role: "Information Verifier",
     description: "Verifies the accuracy of all claims and sources to maintain the integrity of our research.",
     selfCare: ["Reading news articles", "Swimming on weekends", "Spending time with pets"],
     colorClass: "bg-accent/10 text-accent"
@@ -54,7 +55,7 @@ const teamMembers = [
   {
     initials: "NM",
     name: "Mondero, N'drew James F.",
-    role: "Social Media Specialist",
+    role: "Media Specialist",
     description: "Manages outreach and engagement strategies to amplify the project's message across platforms.",
     selfCare: ["Creating content for social media", "Watching YouTube videos", "Playing basketball"],
     colorClass: "bg-primary/10 text-primary"
@@ -62,7 +63,7 @@ const teamMembers = [
   {
     initials: "AF",
     name: "Orcilla, Arjay F.",
-    role: "Communications Coordinator",
+    role: "Communication Coordinator",
     description: "Coordinates team communications and ensures smooth collaboration across all project phases.",
     selfCare: ["Listening to podcasts", "Working out at the gym", "Eating comfort food"],
     colorClass: "bg-accent/10 text-accent"
@@ -70,7 +71,7 @@ const teamMembers = [
   {
     initials: "RP",
     name: "Paragas, Edzel Rein S.",
-    role: "Media Relations",
+    role: "Media Liaison Officer",
     description: "Builds relationships with media outlets and handles press inquiries about the project.",
     selfCare: ["Playing online games", "Watching documentaries", "Taking afternoon naps"],
     colorClass: "bg-primary/10 text-primary"
@@ -78,7 +79,7 @@ const teamMembers = [
   {
     initials: "RV",
     name: "Valerio, Reniel John M.",
-    role: "Education Outreach",
+    role: "Educational Outreach Coordinator",
     description: "Develops educational materials and workshops to spread awareness about corruption issues.",
     selfCare: ["Teaching others new skills", "Cycling around town", "Reading inspirational books"],
     colorClass: "bg-accent/10 text-accent"
@@ -86,7 +87,7 @@ const teamMembers = [
   {
     initials: "RC",
     name: "Catcatan, John Ric D.",
-    role: "Project Manager",
+    role: "Project Lead",
     description: "Oversees project timelines, coordinates team activities, and ensures all objectives are met.",
     selfCare: ["Planning and organizing", "Watching sports events", "Quality time with loved ones"],
     colorClass: "bg-primary/10 text-primary"
